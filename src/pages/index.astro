@@ -1,0 +1,21 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<BaseLayout
+  title="Victor Bona"
+  description="Senior Software Engineer Victor Bona specializes in FinTech and scalable solutions. Experienced in building transformative technology with expertise in software architecture and development. Connect for collaboration opportunities."
+>
+  <Card
+    name="Victor Bona"
+    position="Senior Software Engineer"
+    aboutMe={`Hey There, My name is Victor Bona. I'm a Senior Software Engineer with a passion for building transformative technology solutions. Leveraging extensive experience to design and create scalable, innovative software that drives meaningful impact. Specialized in FinTech and eager to collaborate on challenging projects that push technological boundaries.\n\n Let's connect and build something extraordinary!`}
+    linkedin="https://www.linkedin.com/in/victorbona/"
+    github="https://github.com/vicotrbb"
+    cvLink="/files/resume-cv.pdf"
+    profileImage="/images/profile2.webp"
+  />
+</BaseLayout>
